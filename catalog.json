@@ -1,0 +1,196 @@
+{
+  "title": "从 0 到 1 构建一个可调试的通用 Agent",
+  "introduction_path": "README.md",
+  "sections": [
+    {
+      "title": "第一部分：最小 Agent",
+      "chapters": [
+        {
+          "number": 1,
+          "title": "什么是 Agent Harness",
+          "path": null,
+          "available": false
+        },
+        {
+          "number": 2,
+          "title": "使用官方 SDK 调用模型",
+          "path": null,
+          "available": false
+        },
+        {
+          "number": 3,
+          "title": "实现最小 Agent Loop",
+          "path": null,
+          "available": false
+        },
+        {
+          "number": 4,
+          "title": "原生工具调用协议：半截 tool_use 为什么危险",
+          "path": "chapters/04-truncated-tool-calls.md",
+          "available": true
+        },
+        {
+          "number": 5,
+          "title": "Read、Write、Edit 与 Shell",
+          "path": null,
+          "available": false
+        },
+        {
+          "number": 6,
+          "title": "工具描述为什么影响模型能力",
+          "path": null,
+          "available": false
+        }
+      ]
+    },
+    {
+      "title": "第二部分：让 Agent 真正可用",
+      "chapters": [
+        {
+          "number": 7,
+          "title": "权限审批与危险命令",
+          "path": null,
+          "available": false
+        },
+        {
+          "number": 8,
+          "title": "归档不是删除：持久会话、恢复与 Trace 边界",
+          "path": "chapters/08-session-lifecycle.md",
+          "available": true
+        },
+        {
+          "number": 9,
+          "title": "运行时事件、对话投影、流式输出与取消恢复",
+          "path": null,
+          "available": false
+        },
+        {
+          "number": 10,
+          "title": "后台 Shell 与进程生命周期",
+          "path": "chapters/10-shell-process-lifecycle.md",
+          "available": true
+        },
+        {
+          "number": 11,
+          "title": "多模态消息",
+          "path": null,
+          "available": false
+        },
+        {
+          "number": 12,
+          "title": "PMA 与 Harness Trace",
+          "path": null,
+          "available": false
+        }
+      ]
+    },
+    {
+      "title": "第三部分：长程任务",
+      "chapters": [
+        {
+          "number": 13,
+          "title": "上下文窗口为什么不等于长期记忆",
+          "path": null,
+          "available": false
+        },
+        {
+          "number": 14,
+          "title": "实现 Codex 风格的上下文压缩",
+          "path": "chapters/14-context-compaction.md",
+          "available": true
+        },
+        {
+          "number": 15,
+          "title": "大型工具结果与 Artifact Store",
+          "path": null,
+          "available": false
+        },
+        {
+          "number": 16,
+          "title": "Working Set 与任务状态",
+          "path": null,
+          "available": false
+        },
+        {
+          "number": 17,
+          "title": "长期记忆与按需召回",
+          "path": null,
+          "available": false
+        },
+        {
+          "number": 18,
+          "title": "不要重写生态：Skills 与 MCP",
+          "path": "chapters/18-skills-and-mcp.md",
+          "available": true
+        },
+        {
+          "number": 19,
+          "title": "为什么网络访问不是一个万能 Search 工具",
+          "path": "chapters/19-web-access.md",
+          "available": true
+        },
+        {
+          "number": 20,
+          "title": "让模型真的会分步：任务板、计划模式与用户检查点",
+          "path": "chapters/20-task-planning.md",
+          "available": true
+        },
+        {
+          "number": 21,
+          "title": "长任务控制：预算、LoopGuard 与可恢复检查点",
+          "path": "chapters/21-long-task-control.md",
+          "available": true
+        },
+        {
+          "number": 22,
+          "title": "子 Agent、隔离和协作",
+          "path": null,
+          "available": false
+        }
+      ]
+    },
+    {
+      "title": "第四部分：从 Demo 到工程系统",
+      "chapters": [
+        {
+          "number": 23,
+          "title": "Eval 与回归测试",
+          "path": null,
+          "available": false
+        },
+        {
+          "number": 24,
+          "title": "安全沙箱和权限规则",
+          "path": null,
+          "available": false
+        },
+        {
+          "number": 25,
+          "title": "多 Provider 架构",
+          "path": null,
+          "available": false
+        },
+        {
+          "number": 26,
+          "title": "性能、缓存和成本",
+          "path": null,
+          "available": false
+        },
+        {
+          "number": 27,
+          "title": "一个完整长程任务案例",
+          "path": null,
+          "available": false
+        },
+        {
+          "number": 28,
+          "title": "OpenAgent 的边界和下一步",
+          "path": null,
+          "available": false
+        }
+      ]
+    }
+  ],
+  "available_chapters": 8,
+  "total_chapters": 28
+}

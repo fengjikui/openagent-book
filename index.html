@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN" data-book-mode="static">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#f3efe7" />
+    <title>OpenAgent 配套书</title>
+    <link rel="stylesheet" href="./vendor/highlight-github.min.css" />
+    <link rel="stylesheet" href="./static/book.css" />
+    <script src="./vendor/marked.umd.js" defer></script>
+    <script src="./vendor/purify.min.js" defer></script>
+    <script src="./vendor/highlight.min.js" defer></script>
+    <script src="./vendor/mermaid.min.js" defer></script>
+    <script type="module" src="./static/book.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#book-content">跳到正文</a>
+    <div class="reader-shell">
+      <aside class="book-sidebar" aria-label="书籍目录">
+        <header class="book-brand">
+          <span class="brand-kicker">OPENAGENT FIELD NOTES</span>
+          <a class="brand-title" href="./">从 0 到 1 构建 Agent</a>
+          <p>用真实代码、失败实验和 Trace 理解 Agent Harness。</p>
+        </header>
+
+        <div class="book-progress" aria-label="书稿进度">
+          <div>
+            <span>已发布</span>
+            <strong id="book-progress-count">—</strong>
+          </div>
+          <div class="progress-track" aria-hidden="true">
+            <span id="book-progress-fill"></span>
+          </div>
+        </div>
+
+        <nav class="book-navigation" id="book-navigation" aria-label="章节导航">
+          <p class="navigation-loading">正在读取目录…</p>
+        </nav>
+
+        <footer class="sidebar-footer">
+          <span class="local-dot" aria-hidden="true"></span>
+          <span>书稿阅读服务</span>
+          <kbd>⌘ K</kbd>
+        </footer>
+      </aside>
+
+      <main class="reader-main">
+        <header class="reader-toolbar">
+          <div>
+            <span class="chapter-eyebrow" id="chapter-eyebrow">书籍说明</span>
+            <strong id="toolbar-title">OpenAgent 配套书</strong>
+          </div>
+          <div class="toolbar-actions">
+            <button type="button" class="toolbar-button" id="copy-link-button">复制本页链接</button>
+            <span class="reading-state" id="reading-state">正在同步</span>
+          </div>
+        </header>
+
+        <div class="reader-grid">
+          <article class="book-content" id="book-content" tabindex="-1">
+            <div class="content-loading">
+              <span class="loading-mark" aria-hidden="true"></span>
+              <p>正在打开书稿…</p>
+            </div>
+          </article>
+
+          <aside class="page-outline" aria-label="本页目录">
+            <div class="outline-inner">
+              <strong>本页目录</strong>
+              <nav id="page-outline"></nav>
+            </div>
+          </aside>
+        </div>
+
+        <footer class="chapter-pagination" id="chapter-pagination" aria-label="章节翻页"></footer>
+      </main>
+    </div>
+
+    <dialog class="command-dialog" id="command-dialog">
+      <form method="dialog" class="command-shell">
+        <header>
+          <label for="chapter-search">跳到章节</label>
+          <button value="cancel" aria-label="关闭章节搜索">Esc</button>
+        </header>
+        <input id="chapter-search" type="search" autocomplete="off" placeholder="输入章节编号或标题…" />
+        <div class="command-results" id="command-results"></div>
+      </form>
+    </dialog>
+  </body>
+</html>
