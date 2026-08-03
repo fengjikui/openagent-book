@@ -8,20 +8,20 @@
         {
           "number": 1,
           "title": "什么是 Agent Harness",
-          "path": null,
-          "available": false
+          "path": "chapters/01-agent-harness.md",
+          "available": true
         },
         {
           "number": 2,
           "title": "使用官方 SDK 调用模型",
-          "path": null,
-          "available": false
+          "path": "chapters/02-official-sdk.md",
+          "available": true
         },
         {
           "number": 3,
           "title": "实现最小 Agent Loop",
-          "path": null,
-          "available": false
+          "path": "chapters/03-minimal-agent-loop.md",
+          "available": true
         },
         {
           "number": 4,
@@ -32,14 +32,14 @@
         {
           "number": 5,
           "title": "Read、Write、Edit 与 Shell",
-          "path": null,
-          "available": false
+          "path": "chapters/05-core-tools.md",
+          "available": true
         },
         {
           "number": 6,
           "title": "工具描述为什么影响模型能力",
-          "path": null,
-          "available": false
+          "path": "chapters/06-tool-descriptions.md",
+          "available": true
         }
       ]
     },
@@ -191,6 +191,6 @@
       ]
     }
   ],
-  "available_chapters": 8,
+  "available_chapters": 13,
   "total_chapters": 28
 }
