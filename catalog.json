@@ -60,9 +60,9 @@
         },
         {
           "number": 9,
-          "title": "运行时事件、对话投影、流式输出与取消恢复",
-          "path": null,
-          "available": false
+          "title": "不要把 rollout 直接渲染成聊天：运行时事件与阅读投影",
+          "path": "chapters/09-conversation-projection.md",
+          "available": true
         },
         {
           "number": 10,
@@ -191,6 +191,6 @@
       ]
     }
   ],
-  "available_chapters": 13,
+  "available_chapters": 14,
   "total_chapters": 28
 }
