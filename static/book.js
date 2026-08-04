@@ -169,7 +169,17 @@ async function renderChapter(chapter) {
   document.title = `${chapter.title} · OpenAgent 配套书`;
   window.scrollTo({ top: 0, behavior: "auto" });
   elements.content.focus({ preventScroll: true });
-  if (window.location.hash) document.querySelector(window.location.hash)?.scrollIntoView();
+  scrollToLocationHash();
+}
+
+function scrollToLocationHash() {
+  const encodedId = window.location.hash.slice(1);
+  if (!encodedId) return;
+  try {
+    document.getElementById(decodeURIComponent(encodedId))?.scrollIntoView();
+  } catch {
+    // A malformed URL fragment should not replace otherwise valid chapter content.
+  }
 }
 
 function configureContentLinks(container, currentPath) {
