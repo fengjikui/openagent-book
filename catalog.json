@@ -78,9 +78,9 @@
         },
         {
           "number": 12,
-          "title": "PMA 与 Harness Trace",
-          "path": null,
-          "available": false
+          "title": "宿主级开发工作区：终端、浏览器与文件预览",
+          "path": "chapters/12-host-workbench.md",
+          "available": true
         }
       ]
     },
@@ -191,6 +191,6 @@
       ]
     }
   ],
-  "available_chapters": 15,
+  "available_chapters": 16,
   "total_chapters": 28
 }
