@@ -72,9 +72,9 @@
         },
         {
           "number": 11,
-          "title": "多模态消息",
-          "path": null,
-          "available": false
+          "title": "图片工具结果：模型怎样真正看到截图",
+          "path": "chapters/11-native-image-tool-results.md",
+          "available": true
         },
         {
           "number": 12,
@@ -191,6 +191,6 @@
       ]
     }
   ],
-  "available_chapters": 14,
+  "available_chapters": 15,
   "total_chapters": 28
 }
